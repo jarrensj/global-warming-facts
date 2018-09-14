@@ -7,11 +7,11 @@ const Alexa = require('ask-sdk-core');
 //TODO: The items below this comment need your attention.
 //=========================================================================================================================================
 
-const SKILL_NAME = 'Space Facts';
+const SKILL_NAME = 'global warming facts';
 const GET_FACT_MESSAGE = 'Here\'s your fact: ';
-const HELP_MESSAGE = 'You can say tell me a space fact, or, you can say exit... What can I help you with?';
+const HELP_MESSAGE = 'You can say tell me a global warming fact, or, you can say exit... What can I help you with?';
 const HELP_REPROMPT = 'What can I help you with?';
-const FALLBACK_MESSAGE = 'The Space Facts skill can\'t help you with that.  It can help you discover facts about space if you say tell me a space fact. What can I help you with?';
+const FALLBACK_MESSAGE = 'The global warming Facts skill can\'t help you with that.  It can help you discover facts about global warming if you say tell me a global warming fact. What can I help you with?';
 const FALLBACK_REPROMPT = 'What can I help you with?';
 const STOP_MESSAGE = 'Goodbye!';
 
@@ -20,19 +20,17 @@ const STOP_MESSAGE = 'Goodbye!';
 //=========================================================================================================================================
 
 const data = [
-  'A year on Mercury is just 88 days long.',
-  'Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.',
-  'Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.',
-  'On Mars, the Sun appears about half the size as it does on Earth.',
-  'Earth is the only planet not named after a god.',
-  'Jupiter has the shortest day of all the planets.',
-  'The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.',
-  'The Sun contains 99.86% of the mass in the Solar System.',
-  'The Sun is an almost perfect sphere.',
-  'A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.',
-  'Saturn radiates two and a half times more energy into space than it receives from the sun.',
-  'The temperature inside the Sun can reach 15 million degrees Celsius.',
-  'The Moon is moving approximately 3.8 cm away from our planet every year.',
+  'Global warming is real and is backed by scientific evidence but many people choose to not believe or take action.',
+  'Many people deny that global warming is real even though there is scientific evidence that global warming is real.',
+  'A big culprit of global warming and the depletion of earth\'s resources is shortsightedness for monetary gains',
+  'The "greenhouse effect" is will make the Earth warmer and that includes the oceans as well as melting the glaciers.',
+  'Carbon dioxide and other greenhouse gases are causing the Earth to get warmer',
+  'Ice is melting due to the temperature rising and the sea level is rising because of it.',
+  'Climate change is a global problem.',
+  'Global warming affects the supply of clean water. Fresh drinking water is indispensible for human life. Many people in poverty already experience water poverty.',
+  'The poor are hurt the most by global warming.',
+  'There are many effects of global warming which are not limited to global temperature rising, warming of the oceans, glaciers melting, sea levels rising, more intense events, and acidification of the ocean.',
+  'There is an encyclical on the environment and it is called, "Laudato Si", urging everyone to work together to protect our planet.'
 ];
 
 //=========================================================================================================================================
